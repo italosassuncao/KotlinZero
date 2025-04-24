@@ -1,10 +1,10 @@
 package com.italosassuncao.kotlinzero
 
-open class Carro {
+open class Carro { // Classe Pai, super classe
 
     //var modelo = ""
 
-    private fun injetarCombustivel(){
+    protected open fun injetarCombustivel(){
         println("Injeção de combustivel")
     }
 
@@ -15,8 +15,10 @@ open class Carro {
 
 }
 
-class onix: Carro() {
-
+class onix: Carro() { // Classe filha
+    override fun injetarCombustivel() {
+        super.injetarCombustivel()
+    }
 }
 
 fun main() {
