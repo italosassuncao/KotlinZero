@@ -1,15 +1,15 @@
 package com.italosassuncao.kotlinzero
 
 // Construtor Primário
-class Usuario (nome: String, sobrenome: String){
+/*class Usuario (nome: String, sobrenome: String){
 
-    /* Forma alternativa de passar os paramentros dentro do construtor:
+    *//* Forma alternativa de passar os paramentros dentro do construtor:
     class Usuario (
         val nome: String,
         val sobrenome: String)
 
      Assim não sendo necessário utilizar a declaração de variáveis fora do construtor
-     */
+     *//*
 
     var nome: String = ""
     var sobrenome: String = ""
@@ -27,11 +27,11 @@ class Usuario (nome: String, sobrenome: String){
         println("Segundo construtor")
     }
 
-}
+}*/
 
 fun main() {
 
-    val usuario = Usuario("Italo", "Silva")
+    //val usuario = Usuario("Italo", "Silva")
     //usuario.nome = "Italo"
 
 }

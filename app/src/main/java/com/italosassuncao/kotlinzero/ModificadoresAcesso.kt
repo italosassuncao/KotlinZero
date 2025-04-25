@@ -1,6 +1,6 @@
 package com.italosassuncao.kotlinzero
 
-open class Carro { // Classe Pai, super classe
+/*open class Carro { // Classe Pai, super classe
 
     //var modelo = ""
 
@@ -19,12 +19,16 @@ class onix: Carro() { // Classe filha
     override fun injetarCombustivel() {
         super.injetarCombustivel()
     }
-}
+}*/
+
+
 
 fun main() {
 
-    val onix = Carro()
-    onix.acelerar()
+
+
+    /*val onix = Carro()
+    onix.acelerar()*/
 
     /*val carro = Carro()
     carro.acelerar()*/
