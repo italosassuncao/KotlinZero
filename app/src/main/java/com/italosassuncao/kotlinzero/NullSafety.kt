@@ -1,5 +1,6 @@
 package com.italosassuncao.kotlinzero
 
+/*
 class Carro {
     var cor: String = "Azul"
     var ano: Int = 2011
@@ -20,4 +21,4 @@ fun main() {
     //println(carro?.cor)
     println(cor)
 
-}
+}*/
